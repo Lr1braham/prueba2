@@ -47,6 +47,11 @@ SECRET_KEY = 'django-insecure-+akh7u5l@7ui0xks7e$ux!us+e9y07f$@qax_kx^he5ln*h2k@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+from pathlib import Path
+import os
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
 ALLOWED_HOSTS = []
 
 
